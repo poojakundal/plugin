@@ -1,2 +1,10 @@
 # plugin
-Plugin named WP Book. Upon activation, it will do following things –  Create a custom post type Book Create a custom hierarchical taxonomy Book Category Create a custom non-hierarchical taxonomy Book Tag Create a custom meta box to save book meta information like Author Name, Price, Publisher, Year, Edition, URL, etc. Create custom meta table and save all book meta information in that table (See how to extend Metadata API). Create a custom admin settings page for Book. Settings option should contain options for number of books displayed per page, etc. Settings menu should be displayed under the Books menu. Create a shortcode [book] to display the book(s) information. Shortcode attributes should be id, author_name, year, category, tag, and publisher. Create a custom widget to display books of selected category in the sidebar. Create a custom dashboard widget which shows the top 5 book categories (based on count).
+first downlode wordpress
+then paste wp-book folder in wordpress\wp-content\plugins
+then peste twentysixteen folder in wordpress\wp-content\themes
+after that run your project in localhost
+in left sidebar you can see Plugins - click that then Activate your WP book plugin
+now add new books category tags as per your need 
+then create new page name it as Book List add template - Book Template 
+now from settings - reading - select a static page and then select Book List 
+then visit the site.
